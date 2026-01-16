@@ -426,3 +426,14 @@ a:hover{ color:var(--accent2); text-decoration:underline; }
   .footer__links a{ margin-left:0; margin-right:12px; }
   .bullets{ padding-left:16px; }
 }
+.pub__actions{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Если у тебя нет ghost-кнопок */
+.btn--ghost{
+  background: transparent;
+  border: 1px solid rgba(0,0,0,0.12);
+}
